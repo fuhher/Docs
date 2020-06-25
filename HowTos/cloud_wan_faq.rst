@@ -130,7 +130,7 @@ Please make sure the following items are properly configured in Cisco IOS router
       login local
       transport input ssh
  
-3. Please enable ip ssh in Cisco IOS, either password authentication, private key authentication, or both. Please refer to: https://www.cisco.com/c/en/us/support/docs/security-vpn/secure-shell-ssh/4145-ssh.html
+3. Please allow inbound TCP port 22 access to the Cisco IOS router and enable ip ssh server on Cisco IOS, use either password authentication, private key authentication, or both to allow Aviatrix Controller to ssh into the Cisco router. Please refer to: https://www.cisco.com/c/en/us/support/docs/security-vpn/secure-shell-ssh/4145-ssh.html to enable ssh server on Cisco IOS routers.
 
 
 4. Please enable scp server in Cisco IOS
